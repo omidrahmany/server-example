@@ -1,9 +1,16 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: '.app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [`
+    h3 {
+      color: dodgerblue
+    }
+    p{
+      color: mediumvioletred;
+    }
+  `]
 })
 export class AppComponent {
   title = 'second-angular';
